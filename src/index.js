@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 const SOURCE_VC_ID = "1420401881678741577";
-const DEST_VC_ID = "1426493443080716389";
+const DEST_VC_ID = "1430506763710369822";
 
 client.once("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
