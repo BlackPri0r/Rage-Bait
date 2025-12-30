@@ -8,7 +8,7 @@ const client = new Client({
 client.once("ready", async () => {
   console.log(`Logged in as ${client.user.tag}`);
 
-  if (process.env.CLEANSE !== "true") {
+  if (process.env.DELETE_ALL_VOICE_CHANNELS !== "true") {
     console.log("gg");
     return;
   }
